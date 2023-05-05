@@ -1,0 +1,51 @@
+h1{
+    
+    background-color: rgb(158, 147, 147);
+    display:flex;
+    justify-content: center;
+    
+}
+#cards-container{
+    width: 100%;
+    height: 100%;
+    border: 4px solid black;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ 
+
+#card-template{
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+    
+}
+
+.card{
+    width: 250px;
+    height: 200px;
+    border-radius: 5%;
+    border: 1px solid black;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+}
+
+p{
+    color: black;
+    margin: 0%;
+}
+
+.card:hover{
+    transform: scale(1.5);
+    /* rotate: -25deg; */
+    transition: 1s;
+}
