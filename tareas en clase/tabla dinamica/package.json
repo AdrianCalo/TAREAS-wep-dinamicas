@@ -1,0 +1,16 @@
+{
+  "name": "tabla-dinamica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "readfiles-sync": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "module",
+  "author": "adrian calo",
+  "license": "ISC"
+}

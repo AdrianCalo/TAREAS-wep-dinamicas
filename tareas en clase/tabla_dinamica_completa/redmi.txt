@@ -1,0 +1,5 @@
+en este ejercicio se utilizo JS para a travez de un forEach buscar los datos en el archivo JSON accediendo a las propiedades.
+se "crearon" las etiquetas necesarias con el metodo "document.createElement" dentro del JS cargandose los datos con VARIABLE.textContent.
+los cuales atravez de .appendChild los devuelve a la estructura HTML para ser mostrado en pantalla
+
+CONSULTAR SI ESTA BIEN la EXPLICACION
