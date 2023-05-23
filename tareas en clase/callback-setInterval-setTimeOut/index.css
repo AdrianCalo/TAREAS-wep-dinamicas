@@ -1,0 +1,81 @@
+.contenedor{
+    background-color: cornflowerblue;    
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.entradas{
+    padding: 3%;
+    height:50px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom : 2px solid black; 
+}
+#pantalla{
+    width: 55%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.botonera{
+    width: 400px;
+    height: 225px;
+    display: flex;
+    /* border: 1px solid orange; */
+}
+.numeros{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid black; */
+    align-items: center;
+    align-content: space-around;
+    
+}
+.operadores{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+.operaciones{
+    display: flex;
+    height: 70%;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.btn_num{
+    width:30% ;
+    height:20%;
+    border-radius: 15px; 
+    box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 1px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3) ;
+}
+.btn_op{
+   width: 45%;
+   height: 30%;
+   border-radius: 15%;
+   box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 1px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3) ;
+}
+.btn-env{
+    border-radius: 5px;
+    box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 1px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3) ;
+}

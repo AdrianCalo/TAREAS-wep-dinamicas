@@ -9,11 +9,11 @@
   "author": "adrian calo",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.15.11",
     "readline-sync": "^1.4.10",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "@types/node": "^18.16.12",
     "@types/readline-sync": "^1.4.4",
     "@types/uuid": "^9.0.1"
   }
