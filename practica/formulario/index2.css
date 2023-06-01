@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor_principal{
+    border: 5px solid black;
+    height: 300px;
+    
+}
+.singUp{
+    background-color: aqua;
+    height: 100%;
+    position: relative;
+    
+}
+.login{
+    background-color: red;
+    height: 300px;
+    position: relative;
+    
+}

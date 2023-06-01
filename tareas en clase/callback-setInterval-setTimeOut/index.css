@@ -1,11 +1,24 @@
+body{
+    background-color: black;
+    background-image: url(./600594.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100% ;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
 .contenedor{
-    background-color: cornflowerblue;    
-    width: 400px;
-    height: 300px;
-    border: 2px solid black;
+    background-image: linear-gradient(to left,magenta,tomato);   
+    width: 300px;
+    height: 320px;
+    margin-top: 12.5%;
+    border: 1px solid black;
     border-radius: 10%;
     display: flex;
     flex-direction: column;
+    opacity: .75;
 }
 .entradas{
     padding: 3%;
@@ -13,26 +26,27 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    border-bottom : 2px solid black; 
+    justify-content: space-around; 
 }
 #pantalla{
     width: 55%;
     height: 30px;
     border-radius: 5px;
+    box-shadow: -.3em .5em .5em rgb(24, 23, 23);
 }
 
 .botonera{
-    width: 400px;
+    width: 300px;
     height: 225px;
     display: flex;
+    justify-content: space-around;
     /* border: 1px solid orange; */
 }
 .numeros{   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 70%;
+    width: 60%;
     height: 100%;
     /* border: 1px solid black; */
     align-items: center;
@@ -46,7 +60,7 @@
     justify-content: space-around;
     align-items: center;
     width: 30%;
-    height: 100%;
+    height: 90%;
 }
 .operaciones{
     display: flex;
@@ -61,21 +75,31 @@
     width:30% ;
     height:20%;
     border-radius: 15px; 
-    box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
+    /* box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
     0 0  0 1px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3) ;
+    0.3em 0.3em 1em rgba(0,0,0,0.3) ; */
+    box-shadow:-.3em .5em .5em rgb(24, 23, 23);
 }
 .btn_op{
+    display: flex;
+    justify-content: center;
+    align-items: center;
    width: 45%;
    height: 30%;
    border-radius: 15%;
-   box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
-    0 0  0 1px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3) ;
+   box-shadow: -.3em .5em .5em rgb(24, 23, 23) ;
 }
+
 .btn-env{
     border-radius: 5px;
-    box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
-    0 0  0 1px rgb(255,255,255),
-    0.3em 0.3em 1em rgba(0,0,0,0.3) ;
+    box-shadow:-.3em .5em .5em rgb(24, 23, 23) ;
+}
+.btn-env :hover{
+    background-color: rgb(248, 60, 27);
+}
+.btn_num:hover{
+    background-color: rgb(248, 60, 27) ;
+}
+.btn_op:hover{
+    background-color:  rgb(248, 60, 27);
 }

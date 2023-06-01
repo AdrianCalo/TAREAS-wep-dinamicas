@@ -112,7 +112,7 @@ function dividir(a,b){
     if(a===0){
         return 0;
     }else if(b===0){
-        return 'no podes dividir por 0 capo!'
+        return 'Error'
     }else{
         return a/b;
 }};
